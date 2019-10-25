@@ -17,7 +17,7 @@ namespace ConsoleApp11
             {
                 if (guessCount < guessLimit)
                 {
-                    Console.WriteLine("What word use represet individual rights but now represets feelings?");
+                    Console.WriteLine("What word use to represet individual rights but now represets feelings?");
                     guess = Console.ReadLine();
                     guessCount++;
                     if (guessCount < 2 && guess != secretWord)
